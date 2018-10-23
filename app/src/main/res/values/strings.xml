@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CAS</string>
+    <string name="main">CAS</string>
+    <string name="button">Button</string>
+    <string name="class_attendance_system_developed_by_shshank">Class Attendance System Developed by Shshank</string>
+    <string name="log_in">Log-In</string>
+    <string name="register">Register</string>
+    <string name="d_o_b">D.O.B</string>
+    <string name="e_mail">E-mail</string>
+    <string name="mobile_no">Mobile.No</string>
+    <string name="name">Name</string>
+    <string name="membership_no">Membership No</string>
+    <string name="welcome_class_attendance_system_by_shshank">WELCOME CLASS ATTENDANCE SYSTEM BY SHSHANK</string>
+    <string name="register_admin">REGISTER ADMIN</string>
+    <string name="membership_number">Membership Number</string>
+    <string name="add_class">ADD CLASS</string>
+    <string name="add_student">ADD STUDENT</string>
+    <string name="delete_class">DELETE CLASS</string>
+    <string name="edit_student">EDIT STUDENT</string>
+    <string name="remove_student">REMOVE STUDENT</string>
+    <string name="take_attendance">TAKE ATTENDANCE</string>
+    <string name="view_attendance">VIEW ATTENDANCE</string>
+    <string name="branch">BRANCH</string>
+    <string name="class_sem">CLASS/SEM</string>
+    <string name="d_o_b_dd_mm_yyyy">D O B (dd-mm-yyyy)</string>
+    <string name="roll_no">ROLL NO.</string>
+    <string name="session">SESSION</string>
+    <string name="stud_name">STUD NAME</string>
+    <string name="submit_student">SUBMIT STUDENT</string>
+    <string name="remove">REMOVE</string>
+    <string name="roll_number">ROLL_NUMBER</string>
+    <string name="sem">SEM</string>
+    <string name="add_sem">ADD _SEM</string>
+    <string name="semester">SEMESTER</string>
+    <string name="to_add_a_new_class_give_a_semester_name">To add a new class give a semester name</string>
+    <string name="exit">EXIT</string>
+</resources>

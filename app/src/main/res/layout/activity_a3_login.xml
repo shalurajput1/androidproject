@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mybckg"
+    tools:context="com.ssndevelopers.betacas1.A3Login">
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="34dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        app:layout_constraintLeft_toLeftOf="@+id/editText5" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="249dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="123dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="65dp"
+        android:background="@android:color/background_light"
+        android:text="Log-In"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="#00ff00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/button32"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="249dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginStart="65dp"
+        android:background="@android:color/background_light"
+        android:text="HOME"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="#00ff00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NAME"
+
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="149dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="65dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ssndevelopers.betacas1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splsh">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".A2Register">
+            <intent-filter>
+                <action android:name="com.ssndevelopers.betacas1.A2Register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".A3Login">
+            <intent-filter>
+                <action android:name="com.ssndevelopers.betacas1.A3Login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".A4Logged" />
+        <activity android:name=".studReg">
+            <intent-filter>
+                <action android:name="com.ssndevelopers.betacas1.studReg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".remove_stud">
+            <intent-filter>
+                <action android:name="com.ssndevelopers.betacas1.remove_stud" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".remove_class">
+            <intent-filter>
+                <action android:name="com.ssndevelopers.betacas1.remove_class" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".take_Attend">
+            <intent-filter>
+                <action android:name="com.ssndevelopers.betacas1.take_Attend" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mrk_Attend">
+            <intent-filter>
+                <action android:name="com.ssndevelopers.betacas1.mrk_Attend" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".add_class">
+            <intent-filter>
+                <action android:name="com.ssndevelopers.betacas1.add_class" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".edit_stud">
+            <intent-filter>
+                <action android:name="com.ssndevelopers.betacas1.edit_stud" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view_me" />
+        <activity android:name=".viewPage" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".view_stud" />
+        <activity android:name=".viewforstud"></activity>
+    </application>
+
+</manifest>
